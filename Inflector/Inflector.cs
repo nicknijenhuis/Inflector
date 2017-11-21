@@ -46,6 +46,7 @@ namespace Inflector
             AddSingular("(shoe)s$", "$1");
             AddSingular("(cris|ax|test)es$", "$1is");
             AddSingular("(octop|vir|alumn|fung)i$", "$1us");
+            AddSingular("(alias|status)", "$1");
             AddSingular("(alias|status)es$", "$1");
             AddSingular("^(ox)en", "$1");
             AddSingular("(vert|ind)ices$", "$1ex");
